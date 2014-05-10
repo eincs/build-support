@@ -53,7 +53,7 @@
     </dependencies>
 
     <build>
-        <finalName>haeinsa-${project.version}</finalName>
+        <finalName>build-support-${project.version}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
