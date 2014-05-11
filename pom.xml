@@ -46,9 +46,9 @@
     <inceptionYear>2008</inceptionYear>
 
     <scm>
-        <url>https://github.com/eincs/coding-style</url>
-        <connection>scm:git:git://github.com/eincs/coding-style.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/eincs/coding-style.git</developerConnection>
+        <url>https://github.com/eincs/build-support</url>
+        <connection>scm:git:git://github.com/eincs/build-support.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/eincs/build-support.git</developerConnection>
     </scm>
 
     <developers>
