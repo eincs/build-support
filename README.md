@@ -6,7 +6,7 @@ Just append following codes on your pom.xm file!
 
 ## CheckStyle Plugin
 
-  <plugins>
+    <plugins>
       <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-checkstyle-plugin</artifactId>
@@ -36,5 +36,5 @@ Just append following codes on your pom.xm file!
               </dependency>
           </dependencies>
       </plugin>
-  </plugins>
+    </plugins>
   
