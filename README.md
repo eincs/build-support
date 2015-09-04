@@ -10,7 +10,7 @@ Just append following codes on your pom.xm file!
       <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-checkstyle-plugin</artifactId>
-          <version>2.12</version>
+          <version>2.16</version>
           <executions>
               <execution>
                   <id>checkstyle</id>
