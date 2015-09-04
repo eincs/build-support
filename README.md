@@ -32,7 +32,7 @@ Just append following codes on your pom.xm file!
               <dependency>
                   <groupId>com.eincs.build</groupId>
                   <artifactId>build-support</artifactId>
-                  <version>0.0.3</version>
+                  <version>0.0.4</version>
               </dependency>
           </dependencies>
       </plugin>
