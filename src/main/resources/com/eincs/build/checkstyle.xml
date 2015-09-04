@@ -99,7 +99,7 @@
         <module name="TypeName"/>
         <!-- configure size violations -->
         <module name="LineLength">
-            <property name="max" value="192"/>
+            <property name="max" value="256"/>
         </module>
         <!-- configure whitespaces -->
         <module name="GenericWhitespace"/>
