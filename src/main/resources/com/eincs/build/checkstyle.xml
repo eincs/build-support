@@ -25,8 +25,7 @@
     <module name="RegexpSingleline">
         <property name="format" value="(@(author|version)|\(non-Javadoc\))"/>
         <property name="ignoreCase" value="true"/>
-        <property name="message"
-                value="unmaintainable Javadoc tags: @author, @version, or (non-Javadoc)"/>
+        <property name="message" value="unmaintainable Javadoc tags: @author, @version, or (non-Javadoc)"/>
     </module>
     <module name="FileTabCharacter"/>
     <!-- Force UNIX line separator -->
@@ -38,8 +37,7 @@
     </module>
     <!-- Prohibit consecutive empty lines (except the lines after package/import) -->
     <module name="RegexpMultiline">
-        <property name="format"
-                value="\n *(?!package )(?!import )[^\n]+\n{3,}"/>
+        <property name="format" value="\n *(?!package )(?!import )[^\n]+\n{3,}"/>
         <property name="message" value="two or more consecutive empty lines"/>
     </module>
     <!-- Prohibit an empty after { or before } -->
@@ -49,8 +47,7 @@
     </module>
     <module name="RegexpMultiline">
         <property name="format" value="\n\s+[^\n]{1,10}\{\n\n"/>
-        <property name="message"
-                value="an empty line after a short line that ends with '{'"/>
+        <property name="message" value="an empty line after a short line that ends with '{'"/>
     </module>
     <module name="TreeWalker">
         <!-- configure annotations -->
@@ -112,8 +109,7 @@
         <module name="ParenPad"/>
         <module name="TypecastParenPad"/>
         <module name="WhitespaceAround">
-            <property name="tokens"
-                    value="ASSIGN, BAND, BAND_ASSIGN, BOR, BOR_ASSIGN, BSR, BSR_ASSIGN, BXOR,
+            <property name="tokens" value="ASSIGN, BAND, BAND_ASSIGN, BOR, BOR_ASSIGN, BSR, BSR_ASSIGN, BXOR,
                                            BXOR_ASSIGN, COLON, DIV, DIV_ASSIGN, EQUAL, GE, GT, LAND, LE, LITERAL_CATCH,
                                            LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY, LITERAL_FOR, LITERAL_IF, LITERAL_RETURN,
                                            LITERAL_SYNCHRONIZED, LITERAL_TRY, LITERAL_WHILE, LOR, LT, MINUS, MINUS_ASSIGN, MOD,
@@ -123,8 +119,7 @@
             <property name="tokens" value="COMMA, SEMI, TYPECAST"/>
         </module>
         <module name="NoWhitespaceAfter">
-            <property name="tokens"
-                    value="BNOT, DEC, DOT, INC, LNOT, UNARY_MINUS, UNARY_PLUS"/>
+            <property name="tokens" value="BNOT, DEC, DOT, INC, LNOT, UNARY_MINUS, UNARY_PLUS"/>
             <property name="allowLineBreaks" value="true"/>
             <property name="severity" value="error"/>
         </module>
